@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "78406427559",
+    "firebase_url": "https://proyecto-riemonss-011736-d29db-default-rtdb.firebaseio.com",
+    "project_id": "proyecto-riemonss-011736-d29db",
+    "storage_bucket": "proyecto-riemonss-011736-d29db.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78406427559:android:2574996802ad92585e0c82",
+        "android_client_info": {
+          "package_name": "com.example.riemonapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78406427559-7njc34r11eqe1rcnbebol1096sq2dio3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4ZH1tVy6kepFg3LqTG_HIU6Ar_l4d_KA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78406427559-7njc34r11eqe1rcnbebol1096sq2dio3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78406427559:android:7bab9adb36c8aef95e0c82",
+        "android_client_info": {
+          "package_name": "riemon2.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78406427559-7njc34r11eqe1rcnbebol1096sq2dio3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4ZH1tVy6kepFg3LqTG_HIU6Ar_l4d_KA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78406427559-7njc34r11eqe1rcnbebol1096sq2dio3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

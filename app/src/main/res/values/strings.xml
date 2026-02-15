@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Riemon</string>
+    <string name="app_title">Sistema de Riego - Riemon -</string>
+    <string name="hint_email">Ingresa tu Correo Electronico</string>
+    <string name="hint_password">Ingresa tu Contraseña</string>
+    <string name="txtbtn_register">Registrarse</string>
+    <string name="txtbtn_login">Iniciar Sesion</string>
+    <string name="txtbtn_logout">Cerrar Sesion</string>
+    <string name="appdevteam">~ Riemon Dev Team ~</string>
+    <string name="applogo">APPLOGO</string>
+    <string name="hint_password_confirm">Confirma tu contraseña</string>
+    <string name="lbl_password">Contraseña:</string>
+    <string name="lbl_email">Correo Electronico:</string>
+    <string name="lbl_pass_confirm">Confirma tu contraseña:</string>
+</resources>
