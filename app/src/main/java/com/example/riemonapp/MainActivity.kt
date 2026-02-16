@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showOptionsMenu() {
-        val OptionsIntent = Intent(this, AppMenuActivity::class.java)
-        startActivity(OptionsIntent)
+        val AppIntent = Intent(this, AppMenuActivity::class.java)
+        startActivity(AppIntent)
     }
 }
