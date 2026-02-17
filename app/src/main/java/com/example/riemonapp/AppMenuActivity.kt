@@ -61,8 +61,8 @@ class AppMenuActivity : AppCompatActivity() {
                         "Bomba: Inactiva"
 
                     // Estado sistema
-                    Estado.text = if (sistema.estado_sistema == "ENCENDIDO")
-                        "Estado: Encendido"
+                    Estado.text = if (sistema.estado_sistema == "REGANDO")
+                        "Estado: Regando"
                     else
                         "Estado: Apagado"
 

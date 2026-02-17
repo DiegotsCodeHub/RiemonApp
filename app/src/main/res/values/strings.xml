@@ -6,6 +6,9 @@
     <string name="txtbtn_register">Registrarse</string>
     <string name="txtbtn_login">Iniciar Sesion</string>
     <string name="txtbtn_logout">Cerrar Sesion</string>
+    <string name="txtbtn_Encender">Encender Sistema</string>
+    <string name="txtbtn_Apagar">Apagar Sistema</string>
+    <string name="txtbtn_Programar">Programar Riego</string>
     <string name="appdevteam">~ Riemon Dev Team ~</string>
     <string name="applogo">APPLOGO</string>
     <string name="hint_password_confirm">Confirma tu contraseña</string>
