@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="basecolor">#F5EFE6</color>
+<resources>
+    <color name="black">#FFFFFFFF</color>
+    <color name="white">#FF000000</color>
+    <color name="basecolor">#0a1019</color>
     <color name="botones">#86A46E</color>
     <color name="resalton">#4B6C4E</color>
     <color name="orillas">#3B2D23</color>

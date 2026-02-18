@@ -1,5 +1,6 @@
 package com.example.riemonapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -25,6 +26,24 @@ class AppMenuActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_app_menu)
+
+        val btnEncender = findViewById<Button>(R.id.btnEncender)
+        val btnApagar = findViewById<Button>(R.id.btnApagar)
+        val btnProgramar = findViewById<Button>(R.id.btnProgramar)
+        val btnLogOut = findViewById<Button>(R.id.btn_LogOut)
+
+        btnEncender.setOnClickListener {}
+
+        btnApagar.setOnClickListener {}
+
+        btnProgramar.setOnClickListener {}
+
+        btnLogOut.setOnClickListener {
+            FirebaseAuth.getInstance().signOut()
+            val intent = Intent(this, MainActivity::class.java)
+            finish()
+            startActivity(intent)
+        }
 
         database = FirebaseDatabase.getInstance()
             .reference.child("jardin_principal")
@@ -56,19 +75,19 @@ class AppMenuActivity : AppCompatActivity() {
 
                     // Bomba
                     Bomba.text = if (sistema.bomba_activa)
-                        "Bomba: Activa"
+                        "Activa"
                     else
-                        "Bomba: Inactiva"
+                        "Inactiva"
 
                     // Estado sistema
                     Estado.text = if (sistema.estado_sistema == "REGANDO")
-                        "Estado: Regando"
+                        "Regando"
                     else
-                        "Estado: Apagado"
+                        "Apagado"
 
                     // Sensores
-                    humedadnivel.text = "Humedad del suelo: ${sistema.humedad_suelo}%"
-                    aguanivel.text = "Nivel de agua: ${sistema.nivel_agua}%"
+                    humedadnivel.text = "${sistema.humedad_suelo}%"
+                    aguanivel.text = "${sistema.nivel_agua}%"
                 }
             }
 
