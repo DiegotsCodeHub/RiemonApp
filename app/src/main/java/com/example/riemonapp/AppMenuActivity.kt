@@ -63,6 +63,7 @@ class AppMenuActivity : AppCompatActivity() {
         val Estado = findViewById<TextView>(R.id.txtEstado)
         val aguanivel = findViewById<TextView>(R.id.txtNivelAgua)
         val humedadnivel = findViewById<TextView>(R.id.txtNivelHumedad)
+        val luznivel = findViewById<TextView>(R.id.txtNivelLuzSolar)
 
 
         database.addValueEventListener(object : ValueEventListener {
@@ -88,6 +89,7 @@ class AppMenuActivity : AppCompatActivity() {
                     // Sensores
                     humedadnivel.text = "${sistema.humedad_suelo}%"
                     aguanivel.text = "${sistema.nivel_agua}%"
+                    luznivel.text = "${sistema.nivel_luz}%"
                 }
             }
 
