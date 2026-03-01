@@ -15,34 +15,13 @@
       },
       "oauth_client": [
         {
-          "client_id": "78406427559-7njc34r11eqe1rcnbebol1096sq2dio3.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyB4ZH1tVy6kepFg3LqTG_HIU6Ar_l4d_KA"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "78406427559-7njc34r11eqe1rcnbebol1096sq2dio3.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:78406427559:android:7bab9adb36c8aef95e0c82",
-        "android_client_info": {
-          "package_name": "riemon2.app"
-        }
-      },
-      "oauth_client": [
+          "client_id": "78406427559-k88e8uhp54g58qptuecptqo2e0bmmbid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.riemonapp",
+            "certificate_hash": "3697a9fdc0306124011452a0fb28e7761096e427"
+          }
+        },
         {
           "client_id": "78406427559-7njc34r11eqe1rcnbebol1096sq2dio3.apps.googleusercontent.com",
           "client_type": 3

@@ -17,7 +17,6 @@ import com.google.android.gms.common.api.ApiException
 import com.google.android.gms.common.SignInButton
 import com.google.firebase.firestore.FirebaseFirestore
 
-
 enum class ProviderType{
     BASIC
 }

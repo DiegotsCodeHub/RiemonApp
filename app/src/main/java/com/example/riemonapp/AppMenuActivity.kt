@@ -29,14 +29,29 @@ class AppMenuActivity : AppCompatActivity() {
 
         val btnEncender = findViewById<Button>(R.id.btnEncender)
         val btnApagar = findViewById<Button>(R.id.btnApagar)
-        val btnProgramar = findViewById<Button>(R.id.btnProgramar)
+        // val btnProgramar = findViewById<Button>(R.id.btnProgramar)
         val btnLogOut = findViewById<Button>(R.id.btn_LogOut)
 
-        btnEncender.setOnClickListener {}
+        btnEncender.setOnClickListener {
+            database.child("comando").setValue("ON")
+                .addOnSuccessListener {
+                    println("Comando ON enviado correctamente")
+                }
+                .addOnFailureListener { e ->
+                    println("Error al enviar comando: ${e.message}")
+                }
+        }
 
-        btnApagar.setOnClickListener {}
+        btnApagar.setOnClickListener {
+            database.child("comando").setValue("OFF")
+                .addOnSuccessListener {
+                    println("Comando OFF enviado correctamente")
+                }
+                .addOnFailureListener { e ->
+                    println("Error al enviar comando: ${e.message}")
+                }
+        }
 
-        btnProgramar.setOnClickListener {}
 
         btnLogOut.setOnClickListener {
             FirebaseAuth.getInstance().signOut()
